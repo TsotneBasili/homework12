@@ -1,0 +1,76 @@
+@media (max-width: 480px) {
+    /* container  */
+    .container {
+        padding: 32px 20px;
+    }
+
+    /* main_section  */
+    .main_section {
+        padding: 16px;
+        row-gap:  48px;
+    }
+    
+    /* form_section  */
+    .form_section {
+        row-gap: 40px;
+    }
+
+    .form {
+        row-gap: 36px;
+    }
+
+    .input_section {
+        flex-direction: column;
+        row-gap: 36px;
+    }
+
+    /* map_section  */
+    .map_section {
+        row-gap: 40px;
+    }
+
+    .button_section {
+        column-gap: 42px;
+    }
+
+    .map {
+        height: 200px;
+    }
+}
+
+@media (max-width: 320px) {
+    /* container  */
+    .container {
+        padding: 16px 8px;
+    }
+
+    /* main_section  */
+    .main_section {
+        row-gap: 48px;
+        padding-inline: 8px;
+
+    }
+
+    /* form_section  */
+    .form_section {
+        row-gap: 24px;
+    }
+
+    .form {
+        row-gap: 24px;
+    }
+
+    .input_section {
+        row-gap: 24px;
+    }
+
+    .form_section_h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    /* map_section  */
+    .map_section {
+        row-gap: 24px;
+    }
+}

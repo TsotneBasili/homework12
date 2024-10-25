@@ -1,0 +1,23 @@
+@media (max-width: 1001px) {
+    /* container  */
+    .container {
+        padding: 64px 24px;
+    }
+}
+
+@media (max-width: 800px) {
+    /* container  */
+    .container {
+        padding: 32px 24px;
+    }
+
+    /* main_section  */
+    .main_section {
+        flex-direction: column;
+        row-gap:  64px;
+        padding-inline: 16px;
+
+    }
+
+}
+

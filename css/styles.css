@@ -16,8 +16,9 @@
     column-gap: 66px;
     padding: 40px;
     border-radius: 20px;
-    border: 1px;
     background: #1C1325CC;
+
+    border: 1px solid #B052B5C9
 }
 
 

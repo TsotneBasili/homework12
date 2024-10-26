@@ -129,11 +129,11 @@
 }
 
 .form_button:hover {
-    background-color: red;
+    background: linear-gradient(45deg, #ff0000, #ff5555);
 }
 
 .form_button:active {
-    background-color: green;
+    background: linear-gradient(45deg, #00ff00, #55ff55);
 }
 
 /* map_section  */
@@ -160,6 +160,14 @@
 
     font-size: 18px;
     color: #FFFFFF;
+}
+
+.button:hover {
+    background: linear-gradient(45deg, #ff0000, #ff5555);
+}
+
+.button:active {
+    background: linear-gradient(45deg, #00ff00, #55ff55);
 }
 
 .map {

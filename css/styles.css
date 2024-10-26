@@ -21,6 +21,9 @@
     border: 1px solid #B052B5C9
 }
 
+.main_section:hover {
+    background: #0d0b0fcc;
+}
 
 /* form_section  */
 .form_section {

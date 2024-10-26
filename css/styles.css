@@ -61,6 +61,7 @@
     background: transparent;
     color: #FFFFFF;
     outline: none;
+    font-size: 16px;
 }
 
 .input_email {
@@ -72,6 +73,7 @@
     background: transparent;
     color: #FFFFFF;
     outline: none;
+    font-size: 16px;
 }
 
 .textarea_section {
@@ -86,7 +88,6 @@
     font-weight: 400;
     line-height: 26px;
     color: #FFFFFF;
-    
 }
 
 .input_textarea {
@@ -100,6 +101,7 @@
     color: #FFFFFF;
     resize: none;
 
+    font-size: 16px;
 }
 
 .input_name::placeholder,
@@ -124,6 +126,14 @@
     font-weight: 700;
     line-height: 26px;
     color: #FFFFFF;
+}
+
+.form_button:hover {
+    background-color: red;
+}
+
+.form_button:active {
+    background-color: green;
 }
 
 /* map_section  */
